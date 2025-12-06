@@ -15,4 +15,9 @@ public class HelloController {
     public String hellCICD() {
         return "CI CD Included here";
     }
+
+    @GetMapping("/hello-CICD")
+    public String helloGuru() {
+        return "Hai Guru";
+    }
 }
