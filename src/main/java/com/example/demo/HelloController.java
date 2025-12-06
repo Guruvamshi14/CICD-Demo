@@ -10,4 +10,9 @@ public class HelloController {
     public String hello() {
         return "Hello from CI CD PipeLine";
     }
+
+    @GetMapping("/hello-CICD")
+    public String hellCICD() {
+        return "CI CD Included here";
+    }
 }
